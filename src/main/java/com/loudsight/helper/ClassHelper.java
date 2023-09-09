@@ -15,11 +15,12 @@ public class ClassHelper {
      * method only - ensuring that real warnings aren't inadvertently hidden. The method infers the target type from the
      * required return type as illustrated below:<br></br>
      * `
-     * // Ex. <br></br>
+     * // Ex.
+     * <br />
      * T typedObject = Cast.uncheckedCast(object) // where T is the target type
      * ` *
      *
-     * @param entity
+     * @param entity - Object to cast
      * @return the typed object
      */
     public static <T> T uncheckedCast(Object entity) {
