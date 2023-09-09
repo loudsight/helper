@@ -1,4 +1,6 @@
-package com.loudsight.useful.helper;
+package com.loudsight.helper;
+
+import com.loudsight.helper.ClassHelper;
 
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -38,7 +40,7 @@ public class JvmClassHelper {
     public static <T> Class<T> getPrimitiveClass(String primitiveName)  {
         var className = getClassName(primitiveName);
 
-        return Helper.uncheckedCast(PRIMITIVES.get(className));
+        return ClassHelper.uncheckedCast(PRIMITIVES.get(className));
     }
 
     private static String getClassName(String primitiveName) {
@@ -61,7 +63,7 @@ public class JvmClassHelper {
         if (isPrimitive(className)) {
             return getPrimitiveClass(className);
         } else try {
-            return Helper.uncheckedCast(Class.forName(className, true, classLoader));
+            return ClassHelper.uncheckedCast(Class.forName(className, true, classLoader));
         } catch (Exception e) {
             throw new RuntimeException("Instantiation error", e);
         }

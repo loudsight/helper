@@ -4,7 +4,7 @@
     <parent>
         <artifactId>parent</artifactId>
         <groupId>com.loudsight</groupId>
-        <version>0.0.15-SNAPSHOT</version>
+        <version>0.0.15</version>
     </parent>
 
     <name>Loudsight Helper Module</name>
@@ -36,7 +36,7 @@
     </properties>
 
     <artifactId>helper</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
 
     <build>
