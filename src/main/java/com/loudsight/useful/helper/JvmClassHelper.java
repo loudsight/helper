@@ -43,7 +43,7 @@ public class JvmClassHelper {
 
     private static String getClassName(String primitiveName) {
         var className = primitiveName;
-        if (className.equals("kotlin.String")) {
+        if ("kotlin.String".equals(className)) {
             className = "java.lang.String";
         } else if (className.startsWith("kotlin.")) {
             className = className.replace("kotlin.", "");
