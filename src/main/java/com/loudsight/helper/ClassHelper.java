@@ -28,4 +28,11 @@ public class ClassHelper {
     public static <T> T uncheckedCast(Object entity) {
         return (T)entity;
     }
+
+
+    public static String getPackageName(String qualifiedName) {
+        var lastIndexOfDot = qualifiedName.lastIndexOf('.');
+
+        return qualifiedName.substring(0, lastIndexOfDot);
+    }
 }
