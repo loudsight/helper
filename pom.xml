@@ -5,6 +5,7 @@
         <artifactId>parent</artifactId>
         <groupId>com.loudsight</groupId>
         <version>0.0.19-SNAPSHOT</version>
+        <relativePath />
     </parent>
 
     <name>Loudsight Helper Module</name>
@@ -31,12 +32,9 @@
         <developerConnection>scm:git:origin</developerConnection>
         <url>https://github.com/loudsight/helper.git</url>
     </scm>
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
 
-    <artifactId>helper</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
+    <artifactId>basic-helper</artifactId>
+    <version>0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <build>
