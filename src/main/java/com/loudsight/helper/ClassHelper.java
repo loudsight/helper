@@ -3,10 +3,6 @@ package com.loudsight.helper;
 
 public class ClassHelper {
 
-//    fun <T: Any> toKClass(aClass: Class<T>): KClass<T> {
-//        return aClass.kotlin
-//    }
-
     /**
      * Method to cast a given type to an arbitrary type. The small size of the method means it will likely be in-lined
      * by the JVM compiler The method is may be used to deal with situations where a warning is produced by the compiler
