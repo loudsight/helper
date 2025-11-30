@@ -9,7 +9,7 @@
     </parent>
 
     <properties>
-        <meta-entity-gen-disabled>true</meta-entity-gen-disabled>
+        <skip-meta-entity-generation>true</skip-meta-entity-generation>
     </properties>
 
     <name>Loudsight Helper Module</name>
