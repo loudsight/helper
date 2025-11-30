@@ -8,6 +8,10 @@
         <relativePath />
     </parent>
 
+    <properties>
+        <meta-entity-gen-disabled>true</meta-entity-gen-disabled>
+    </properties>
+
     <name>Loudsight Helper Module</name>
     <description>Loudsight Helper Module</description>
     <url>https://loudsight.com/</url>
@@ -27,6 +31,7 @@
             <organizationUrl>http://www.loudsight.com</organizationUrl>
         </developer>
     </developers>
+
     <scm>
         <connection>scm:git:https://github.com/loudsight/helper.git</connection>
         <developerConnection>scm:git:origin</developerConnection>
@@ -39,10 +44,6 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-            </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>build-helper-maven-plugin</artifactId>
