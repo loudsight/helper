@@ -8,10 +8,6 @@
         <relativePath />
     </parent>
 
-    <properties>
-        <skip-meta-entity-generation>true</skip-meta-entity-generation>
-    </properties>
-
     <name>Loudsight Helper Module</name>
     <description>Loudsight Helper Module</description>
     <url>https://loudsight.com/</url>
